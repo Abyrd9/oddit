@@ -1,0 +1,12 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error-text {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #2C3235;
+}

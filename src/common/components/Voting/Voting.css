@@ -1,0 +1,282 @@
+.voting-container {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.voting-title-container {
+  width: 95%;
+  align-self: center;
+  border-bottom: 1px solid #ededed;
+  justify-content: space-between;
+  display: flex;
+}
+
+.voting-title {
+  margin: 0;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  align-self: flex-start;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #264653;
+  text-align: left;
+}
+
+.vote-number-total {
+  margin: 0;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  align-self: flex-end;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #264653;
+}
+
+.voting-buttons-main-container {
+  width: 95%;
+  align-self: center;
+}
+
+.voting-content-container {
+  width: 100%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.voting-button-container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px 0px 0px;
+}
+
+.color-bar {
+  background-color: red;
+  height: 5px;
+  width: 70px;
+}
+
+.voting-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+.button-text {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #264653;
+}
+
+.voting-button.one {
+  border: 3px solid #e76f51;
+}
+
+.color-bar.one {
+  background-image:
+    linear-gradient(
+      to right,
+      #e76f51, #ed9680
+    );
+}
+
+.voting-button.two {
+  border: 3px solid #ed9680;
+}
+
+.color-bar.two {
+  background-image:
+    linear-gradient(
+      to right,
+      #ed9680, #e9c46a
+    );
+}
+
+.voting-button.three {
+  border: 3px solid #e9c46a;
+}
+
+.color-bar.three {
+  background-image:
+    linear-gradient(
+      to right,
+      #e9c46a, #b1dbd6
+    );
+}
+
+.voting-button.four {
+  border: 3px solid #b1dbd6;
+}
+
+.color-bar.four {
+  background-image:
+    linear-gradient(
+      to right,
+      #b1dbd6, #2a9d8f
+    );
+}
+
+.voting-button.five {
+  border: 3px solid #2a9d8f;
+}
+
+.voting-button-title-container {
+  margin: 5px 0px 15px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.voting-button-title {
+  margin: 0;
+  width: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #264653;
+}
+
+.voting-button-public {
+  transition: all .3s ease;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.voting-button-public.one {
+  border: 3px solid #e76f51;
+}
+
+.voting-button-public.two {
+  border: 3px solid #ed9680;
+}
+
+.voting-button-public.three {
+  border: 3px solid #e9c46a;
+}
+
+.voting-button-public.four {
+  border: 3px solid #b1dbd6;
+}
+
+.voting-button-public.five {
+  border: 3px solid #2a9d8f;
+}
+
+.voting-button-public.one:hover {
+  border: 3px solid #e76f51;
+  background-color: #e76f51;
+}
+
+.voting-button-public.two:hover {
+  border: 3px solid #ed9680;
+  background-color: #ed9680;
+}
+
+.voting-button-public.three:hover {
+  border: 3px solid #e9c46a;
+  background-color: #e9c46a;
+}
+
+.voting-button-public.four:hover {
+  border: 3px solid #b1dbd6;
+  background-color: #b1dbd6;
+}
+
+.voting-button-public.five:hover {
+  border: 3px solid #2a9d8f;
+  background-color: #2a9d8f;
+}
+
+.voting-button-public.one.button-voted {
+  background-color: #e76f51;
+}
+
+.voting-button-public.two.button-voted {
+  background-color: #ed9680;
+}
+
+.voting-button-public.three.button-voted {
+  background-color: #e9c46a;
+}
+
+.voting-button-public.four.button-voted {
+  background-color: #b1dbd6;
+}
+
+.voting-button-public.five.button-voted {
+  background-color: #2a9d8f;
+}
+
+.submit-button-container {
+  width: 95%;
+  align-self: center;
+  border-top: 1px solid #ededed;
+  padding-top: 15px;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+}
+
+.submit-button {
+  outline: none;
+  border: none;
+  background-color: rgba(25, 25, 25, 0);
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #264653;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.submit-button:hover {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-color: #f4a261;
+  cursor: pointer;
+  box-shadow: 0 6px 8px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.24);
+  color: white;
+}
+
+.submit-button:active {
+  box-shadow: 0 3px 4px rgba(0,0,0,0.12), 0 2px 2px rgba(0,0,0,0.24);
+}
+
+.submit-button.nonsubmit {
+  box-shadow: 0 1px 3px rgba(0,0,0,0), 0 1px 2px rgba(0,0,0,0);
+  cursor: default;
+  outline: none;
+  border: none;
+  border: solid 2px #ededed;
+  background-color: #ededed;
+  color: #D0D0D0;
+}

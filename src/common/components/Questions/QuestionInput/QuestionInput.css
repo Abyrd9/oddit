@@ -1,0 +1,152 @@
+.question-input-container {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, .2);
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.title-container {
+  width: 95%;
+  align-self: center;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+}
+
+.title {
+  max-width: 90%;
+  margin: 0;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  align-self: flex-start;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  color: #264653;
+  text-align: left;
+}
+
+.textarea-container {
+  margin: 5px;
+}
+
+.textdisplay-container {
+  width: 95%;
+  align-self: center;
+  display: flex;
+}
+
+textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.textarea {
+  border: none;
+  width: 95%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #264653;
+}
+
+.text-display{
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  text-align: left;
+  width: 95%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #264653;
+  min-height: 200px;
+}
+
+.textarea::-webkit-input-placeholder {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #e1e1e1;
+}
+
+.textarea:active {
+  border: none;
+}
+
+.input-footer-container {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.save-button {
+  cursor: pointer;
+  transition: all ease .3s;
+  border: solid 2px #F4A261;
+  color: #F4A261;
+  background-color: rgba(237,237,237, 0);
+  width: 80px;
+  height: 30px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.save-button:hover {
+  background-color: #F4A261;
+  color: white;
+}
+
+.save-button.saved {
+  cursor: default;
+  outline: none;
+  border: none;
+  border: solid 2px #ededed;
+  background-color: #ededed;
+  color: #D0D0D0;
+}
+
+.share-button {
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all ease .3s;
+  border: solid 2px #F4A261;
+  color: #F4A261;
+  background-color: rgba(237,237,237, 0);
+  width: 80px;
+  height: 30px;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.share-button:hover {
+  background-color: #F4A261;
+  color: white;
+}
+
+.share-button.nonshareable {
+  cursor: default;
+  outline: none;
+  border: none;
+  border: solid 2px #ededed;
+  background-color: #ededed;
+  color: #D0D0D0;
+}

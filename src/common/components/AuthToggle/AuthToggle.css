@@ -1,0 +1,50 @@
+button:focus {
+    outline: 0 !important;
+}
+
+.toggle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 350px;
+  margin: 0px 20px 30px 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ededed;
+}
+
+.toggle-button {
+  border: 2px solid #EF6362;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border-radius: 5px;
+  width: 140px;
+  height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #EF6362;
+}
+
+.toggle-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #e1e1e1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.toggle-button:hover {
+  transition: all ease .3s;
+  color: white;
+  background-color: #EF6362;
+  cursor: pointer;
+}
+
+.toggle-button.active {
+  transition: all ease .3s;
+  color: white;
+  background-color: #EF6362;
+}
